@@ -1,0 +1,5 @@
+package com.alurachallenges.literalura.domain.topico;
+
+
+public interface TopicoRepository {
+}
