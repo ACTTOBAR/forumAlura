@@ -1,4 +1,9 @@
 package com.alurachallenges.literalura.domain.topico;
 
-public record DatosRespuestaTopico() {
+import java.time.LocalDateTime;
+
+public record DatosRespuestaTopico(Long id,
+                                   String titulo,
+                                   String mensaje,
+                                   LocalDateTime fecha) {
 }
